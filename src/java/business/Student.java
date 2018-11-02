@@ -9,6 +9,7 @@ package business;
  *
  * @author KA
  */
+/* This is student class */
 public class Student {
     private int studentId;
     String studentName;
