@@ -13,7 +13,7 @@ package business;
 public class Student {
     private int studentId;
     String studentName;
-    String studentAddress;
+   
 
     public Student(int studentId, String studentName, String studentAddress) {
         this.studentId = studentId;
