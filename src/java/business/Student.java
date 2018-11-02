@@ -13,20 +13,20 @@ package business;
 public class Student {
     private int studentId;
     String studentName;
-    String batch;
+    String studentAddress;
 
-
-    public Student() {
-    }
-
-    public Student(int studentId, String studentName, String batch) {
+    public Student(int studentId, String studentName, String studentAddress) {
         this.studentId = studentId;
         this.studentName = studentName;
-        this.batch = batch;
+        this.studentAddress = studentAddress;
     }
 
-    public Student(String batch) {
-        this.batch = batch;
+    public String getStudentAddress() {
+        return studentAddress;
+    }
+
+    public void setStudentAddress(String studentAddress) {
+        this.studentAddress = studentAddress;
     }
 
     public int getStudentId() {
